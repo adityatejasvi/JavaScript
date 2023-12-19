@@ -24,3 +24,27 @@ let myObj={
 const fun= function(){
     console.log("Hello Aditya");
 }
+ 
+// Stack (Primitive)  Heap(Non-Primitive)
+
+let myName="Aditya";
+let anotherName=myName;
+
+console.log(myName);
+console.log(anotherName);
+
+anotherName="Tejasvi"
+
+console.log(myName);
+console.log(anotherName);
+
+let u1={
+    userName:"Madithya",
+    userMail:"xyz@gmail.com",
+}
+
+let u2=u1;
+u2.userMail="cello@gmail.com";
+
+console.log(u2.userMail);
+console.log(u1.userMail);
