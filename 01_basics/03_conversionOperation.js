@@ -23,7 +23,7 @@ console.log(experienceInNumber)
 
 // Taking null
 let victory=null
-console.log(typeof null)
+console.log(typeof victory)
 
 let val=Number(victory)
 console.log(typeof val)
